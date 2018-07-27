@@ -1,0 +1,70 @@
+section{
+  padding-top:40px;
+}
+.portfolio {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+  @media (max-width: 767.98px) {
+    .portfolio {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 90%;
+    }
+  }
+  @media (min-width: 768px) {
+    .card{
+      height: 200px;
+    }
+  }
+  
+.portfolio-item{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FA6A31;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: .9;
+}
+
+.portfolio-text{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr{
+  border-top: 1px solid#FA6A31;
+  width: 75%;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+.card-title{
+  font-size: 20px
+}
